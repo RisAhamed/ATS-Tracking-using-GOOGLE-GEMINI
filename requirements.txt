@@ -1,0 +1,14 @@
+scikit-learn
+tensorflow
+pandas
+numpy
+scipy
+mlflow
+kubeflow
+apache-beam
+google-cloud-aiplatform
+flask
+sqlalchemy
+docker
+gitpython
+boto3
