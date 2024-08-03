@@ -1,7 +1,7 @@
 # ATS-Tracking-using-GOOGLE-GEMINI
 
 
-#project structure
+# project structure
 ```bash 
 ats-project/
 ├── data/
@@ -17,39 +17,41 @@ ats-project/
 │   ├── ranking_model.pkl
 │   └── ...
 ├── code/
+│   ├── __init__.py
 │   ├── app.py
 │   ├── models.py
 │   ├── data_processing.py
 │   ├── utils.py
-│   ├── train.py
-│   ├── predict.py
 │   └── ...
 ├── configs/
 │   ├── environment_variables.py
 │   ├── model_configs.py
-│   ├── hyperparameters.yaml
 │   └── ...
 ├── tests/
+│   ├── __init__.py
 │   ├── test_app.py
 │   ├── test_models.py
 │   └── ...
 ├── mlops/
 │   ├── pipelines/
+│   │   ├── __init__.py
 │   │   ├── train_pipeline.py
-│   │   ├── deploy_pipeline.py
 │   │   └── ...
 │   ├── workflows/
+│   │   ├── __init__.py
 │   │   ├── train_workflow.py
-│   │   ├── deploy_workflow.py
 │   │   └── ...
 │   ├── monitoring/
+│   │   ├── __init__.py
 │   │   ├── model_monitoring.py
-│   │   ├── data_monitoring.py
 │   │   └── ...
+│   └── ...
+├── logs/
+│   ├── project.log
 │   └── ...
 ├── Dockerfile
 ├── requirements.txt
-├── .gitignore
+├── setup.py
 └── README.md
 ```
 
